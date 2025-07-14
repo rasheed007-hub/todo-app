@@ -21,28 +21,30 @@ body {
   align-items: center;
 }
 
-.header .inputContainer {
+.inputContainer {
   display: flex;
   flex-direction: column;
+  gap: .5rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
 }
 
 .header input {
-  width: 200px;
+  width: 500px;
   height: 40px;
   border: none;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
   padding-left: 10px;
   font-size: 17px;
   border: 1px solid grey;
 }
 
 .header button {
-  width: 70px;
-  height: 87px;
+  width: 300px;
+  height: 50px;
   border: none;
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
   padding-left: 10px;
   cursor: pointer;
 }
