@@ -1,6 +1,6 @@
 # Todo List - React TypeScript
 
-![Todo App Screenshot](<img width="1366" height="768" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/531108e8-aafa-4979-bdc5-d75fc4de8250" />) <!-- Add your screenshot file in project root -->
+![Todo App Screenshot](<img width="1366" height="768" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/f42c7a99-2cfe-40d2-8edb-7f3a05c5e80a" />) <!-- Add your screenshot file in project root -->
 
 A simple todo list application with add and delete functionality built with React and TypeScript.
 
