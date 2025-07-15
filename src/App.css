@@ -14,7 +14,7 @@ body {
 
 .header {
   flex: 30%;
-  background-color: blue;
+  background-color: rgb(6, 6, 105);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@ body {
   height: 100%;
   font-size: 18px;
   border-right: none;
-  background-color: blue;
+  background-color: rgb(6, 6, 105);
 }
 
 .task button {
