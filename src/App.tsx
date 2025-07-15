@@ -21,7 +21,7 @@ const App: FC = () => {
     const newTask = { taskName: task, deadline: deadline };
     setTodoList([...todoList, newTask]);
     setTask("");
-    setDealine(0);
+    setDealine(Number("0"));
   };
 
   const completeTask = (taskNameToDelete: string): void => {
