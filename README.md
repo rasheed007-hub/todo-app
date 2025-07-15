@@ -26,8 +26,9 @@ A simple todo list application with add and delete functionality built with Reac
 
 ## How to Use
 1. Type your task in the input field at the top
-2. Press Enter or click the Add button to add it to your list
-3. Click the delete button (🗑️) next to any task to remove it
+2. Put in the days
+3. Press Enter or click the Add button to add it to your list
+4. Click the delete button (🗑️) next to any task to remove it
 
 ## Project Structure
 Main files:
