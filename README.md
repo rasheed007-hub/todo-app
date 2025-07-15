@@ -1,69 +1,45 @@
-# React + TypeScript + Vite
+# Todo List - React TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Todo App Screenshot](<img width="1366" height="768" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/531108e8-aafa-4979-bdc5-d75fc4de8250" />
+) <!-- Add your screenshot file in project root -->
 
-Currently, two official plugins are available:
+A simple todo list application with add and delete functionality built with React and TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+`git clone https://github.com/yourusername/todo-list.git`
 
-## Expanding the ESLint configuration
+2. Install dependencies using Yarn:
+`yarn install`
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+3. Start the development server:
+`yarn start`
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
+- Add new todo items by typing and pressing Enter
+- Delete items by clicking the trash icon
+- Clean, responsive interface
+- Built with React and TypeScript
+- Uses Yarn as package manager
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Available Scripts
+- `yarn start` - Runs the app in development mode (Open [http://localhost:3000](http://localhost:3000))
+- `yarn build` - Builds the app for production
+- `yarn test` - Launches the test runner
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## How to Use
+1. Type your task in the input field at the top
+2. Press Enter or click the Add button to add it to your list
+3. Click the delete button (🗑️) next to any task to remove it
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
+Main files:
+- `src/App.tsx` - Contains all todo logic
+- `src/index.tsx` - Application root
+- `src/App.css` - Basic styling
+- `src/components` - Contains static assets
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Dependencies
+- React 18+
+- TypeScript 4+
+- Yarn 1.22+
