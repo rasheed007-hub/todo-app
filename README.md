@@ -14,7 +14,7 @@ A simple todo list application with add and delete functionality built with Reac
 
 ## Features
 - Add new todo items by typing and pressing Enter
-- Delete items by clicking the trash icon
+- Delete items by clicking the trash button 
 - Clean, responsive interface
 - Built with React and TypeScript
 - Uses Yarn as package manager
